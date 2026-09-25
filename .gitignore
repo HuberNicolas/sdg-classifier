@@ -1,5 +1,13 @@
+# Data, models and training output (not part of the repository)
 /data
 /output
-/bert-finetuned-sdg-english
-/bert-finetuned-lora-sdg-english
+/bert-finetuned-*
+
+# Python
+__pycache__/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# macOS
 .DS_Store
